@@ -148,6 +148,11 @@ class GameFragment : Fragment() {
             dialogFacts()
             pauseTimer()
         }
+
+        binding.topCoin.setOnClickListener {
+            findNavController().navigate(R.id.action_gameFragment_to_ruletkaFragment)
+
+        }
     }
 
 
