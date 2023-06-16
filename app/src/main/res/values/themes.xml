@@ -1,9 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.PixBrazil" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.FootBallGame" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+<!--        <item name="fontFamily">@font/days_one</item>-->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/black</item>
     </style>
 
-    <style name="Theme.PixBrazil" parent="Base.Theme.PixBrazil" />
+    <style name="Theme.FootBallGame" parent="Base.Theme.FootBallGame" />
 </resources>
