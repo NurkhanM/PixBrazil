@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "320210903110",
+    "project_id": "wzawexwe",
+    "storage_bucket": "wzawexwe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320210903110:android:e2a321828c25328be3ea47",
+        "android_client_info": {
+          "package_name": "keep.pixbrazil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320210903110-s9u202nha2pa3mam6k5g556n7iptn8dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6slTKW1tZ5KZ9JE_1tAkGSK3bP34ljY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320210903110-s9u202nha2pa3mam6k5g556n7iptn8dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

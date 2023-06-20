@@ -6,55 +6,55 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="privacy1">Сбор информации:
+    <string name="privacy1">Information Collection:
 
-Игра "Blaze" не собирает персональную информацию об игроках, такую как имена, адреса электронной почты или финансовые данные.
-Игра может собирать общую информацию, которая не может быть использована для идентификации конкретного пользователя, например, статистику игры и предпочтения игроков.
-Использование информации:
+The "PixBrazil" game does not collect personal information about players, such as names, email addresses, or financial information.
+The game may collect general information that cannot be used to identify a particular user, such as game statistics and player preferences.
+Information Use:
 
-Любая собранная информация в игре "Blaze" используется исключительно для целей игры и улучшения игрового опыта.
-Собранная информация может быть использована для анализа исследования рынка или улучшения игровых функций и механик.
-Раскрытие информации третьим лицам:
+Any information collected in the "Blaze" game is used solely for the purpose of playing the game and improving the game experience.
+The information collected may be used for market research analysis or to improve game features and mechanics.
+Disclosure of information to third parties:
 
-Игра "Blaze" не раскрывает, не продает и не передает собранную информацию третьим лицам без согласия игрока, за исключением случаев, предусмотренных законодательством.
-Безопасность:
+The game "PixBrazil" does not disclose, sell or transfer the information collected to third parties without the player\'s consent, except as required by law.
+Security:
 
-Игра "Blaze" принимает разумные меры для обеспечения безопасности собранной информации и защиты от несанкционированного доступа, использования или раскрытия данных.
-Однако, несмотря на принятые меры безопасности, невозможно гарантировать абсолютную безопасность передачи данных через интернет.
-Ссылки на сторонние сайты:
+The "PixBrazil" Game takes reasonable measures to ensure the security of the collected information and to protect against unauthorized access, use or disclosure.
+However, despite the security measures in place, it is not possible to guarantee the absolute security of data transmission over the Internet.
+Links to Third Party Sites:
 
-Игра "Blaze" может содержать ссылки на сторонние веб-сайты или сервисы, которые не контролируются нами.
-Мы не несем ответственности за практики конфиденциальности или содержание этих сторонних ресурсов.
-Дети:
+The PixBrazil Game may contain links to third-party websites or services that are not under our control.
+We are not responsible for the privacy practices or content of these third-party resources.
+Children:
 
-Игра "Blaze" не предназначена для детей младше 13 лет. Мы не собираем намеренно персональную информацию от детей младше 13 лет. Если вы являетесь родителем и обнаружили, что ваш ребенок предоставил нам персональную информацию, свяжитесь с нами, и мы примем меры для удаления этой информации.
-Изменения политики конфиденциальности:
+The "PixBrazil" game is not intended for children under the age of 13. We do not knowingly collect personally identifiable information from children under the age of 13. If you are a parent and find that your child has provided us with personal information, please contact us and we will take steps to delete that information.
+Changes to our privacy policy:
 
-Игра "Blaze" может время от времени обновлять свою политику конфиденциальности. Любые изменения будут размещены на этой странице, и игрокам будет предоставлена возможность ознакомиться с изменениями.
-Пожалуйста, обратите внимание, что эта политика конфиденциальности применяется только к игре "Blaze" и не распространяется на другие услуги или сайты, с которыми игра может быть связана.</string>
+PixBrazil Game may update its privacy policy from time to time. Any changes will be posted on this page, and players will be given the opportunity to review the changes.
+Please note that this privacy policy only applies to the game
+        "PixBrazil" and does not apply to other services or sites with which the game may be associated.</string>
 
+    <string name="rules1">The game follows a question and answer format, with each question followed by four choices of answers.
 
-    <string name="rules1">Игра проходит в формате вопрос-ответ, где каждый вопрос сопровождается четырьмя вариантами ответа.
+The host (or the computer program) presents the question and then lists four answer choices, marked with the letters A, B, C and D.
 
-Ведущий (или компьютерная программа) предоставляет вопрос, а затем перечисляет четыре варианта ответа, помеченных буквами A, B, C и D.
+The player chooses one of the answer choices, indicating the letter corresponding to the chosen choice.
 
-Игрок выбирает один из вариантов ответа, указывая букву, соответствующую выбранному варианту.
+After choosing an answer, the player announces his choice to the host or enters it into the computer program.
 
-После выбора ответа игрок объявляет свой выбор ведущему или вводит его в компьютерную программу.
+After the player has given his answer, the presenter announces the correct answer to the question.
 
-После того, как игрок дал свой ответ, ведущий объявляет правильный ответ на вопрос.
+If the player gave the correct answer, he gets points or receives some kind of reward (if any). If the answer is incorrect, the player continues the game without any points.
 
-Если игрок дал правильный ответ, ему начисляются очки или получает какую-то награду (если таковая предусмотрена). Если ответ неверный, игрок продолжает игру без начисления очков.
+After the correct answer to the first question is announced, the facilitator moves on to the next question, repeating steps 2 through 6.
 
-После объявления правильного ответа на первый вопрос, ведущий переходит к следующему вопросу, повторяя шаги с 2 по 6.
+The game continues until all questions have been asked or until the player decides to stop the game.
 
-Игра продолжается до тех пор, пока не будут заданы все вопросы или пока игрок не решит прекратить игру.
+At the end of the game, the player may be given the total points scored or entered into the record table, if available.
 
-В конце игры, игроку может быть предоставлена общая сумма набранных очков или занесена в таблицу рекордов, если такая имеется.
+If a player has questions about the rules or requests for help, the leader can provide additional information or explain some details.
 
-Если у игрока возникнут вопросы о правилах или просьбы о помощи, ведущий может предоставить дополнительную информацию или объяснить некоторые детали.
-
-Помните, что эти правила являются базовыми и могут быть изменены или дополнены в соответствии с конкретными потребностями игры.</string>
+Remember that these rules are basic and can be changed or supplemented according to the specific needs of the game.</string>
 
     <string name="lorem_ipsum">Добро пожаловать сама боль велика, она будет достигнута жирная элита пределы ullamcorper.mauris sad orci nibh, ему нужно украсить мою собственность и меценат не надо, жизнь ядовитое озеро класс они склонны молчать, когда их товарищи поворачиваются к берегам наши браки, посредством гименейских проектов. на самом деле нет времени на домашнюю работу слой porttitor.proin scelerisque lorem at ex слой белка. немного домашнего задания tincidunt pulvinar. maecenas porta congue люктус работник поселяется на этой улице он сказал, что были выходные разработчик и сейчас время шоколада не жизнь большой, но tincidunt gravida elementum. в конце долины чтобы украсить лук, в какой-то урне боли и ненависти.
     </string>

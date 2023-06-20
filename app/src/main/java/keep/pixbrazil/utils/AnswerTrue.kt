@@ -2,20 +2,25 @@ package keep.pixbrazil.utils
 
 object AnswerTrue {
     val QUESTIONS_ALL = arrayOf(
-        "Какая команда выиграла Чемпионат мира по футболу 2018 года?",
-        "Какой футбольный клуб является самым титулованным в истории Лиги чемпионов УЕФА?",
-        "Кто был признан лучшим футболистом мира по версии FIFA в 2020 году?",
-        "Какой национальной сборной принадлежит рекорд по числу побед в Кубке мира по футболу?",
-        "Кто является текущим обладателем Золотого мяча 2021 года?"
+        "Which team won the 2018 FIFA World Cup?",
+        "Which soccer club is the most titled in the history of the UEFA Champions League?",
+        "Who was voted the best footballer in the world by FIFA in 2020?",
+        "Which national team holds the record for the most wins in the FIFA World Cup?",
+        "Who is the current 2021 Ballon d'Or winner?",
+        "Which team is the most successful in the history of the UEFA Champions League?",
+        "Who holds the record for the most goals scored in a single UEFA Champions League season?",
+        "How many players are on the field for each team during a soccer game?"
     )
 
     val ANSWERS_ALL = arrayOf(
-        "Франция",
-        "Реал Мадрид",
-        "Роберт Левандовски",
-        "Бразилия",
-        "Лионель Месси"
+        "France",
+        "Real Madrid",
+        "Robert Lewandowski",
+        "Brazil",
+        "Lionel Messi",
+        "Bayern Munich",
+        "Cristiano Ronaldo",
+        "11"
     )
-
 
 }

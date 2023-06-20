@@ -7,8 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import keep.pixbrazil.MainActivity
+import keep.pixbrazil.MyApp
 import keep.pixbrazil.R
 import keep.pixbrazil.databinding.FragmentMenuBinding
+import keep.pixbrazil.utils.Parametres.GAME_LIVE
+import keep.pixbrazil.utils.Parametres.GAME_TOTAL
 import keep.pixbrazil.utils.Parametres.MUSIC_STATE
 
 /**
@@ -18,8 +21,8 @@ class MenuFragment : Fragment() {
 
     private var _binding: FragmentMenuBinding? = null
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
+
+
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -28,7 +31,7 @@ class MenuFragment : Fragment() {
     ): View {
         _binding = FragmentMenuBinding.inflate(inflater, container, false)
 
-        val mediaPlayer = (activity as MainActivity).mediaPlayer
+        val mediaPlayer = (requireActivity().application as MyApp).mediaPlayer
         if (MUSIC_STATE){
             mediaPlayer.start()
         }else{
@@ -42,6 +45,9 @@ class MenuFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        GAME_TOTAL = 0
+        GAME_LIVE = 3
+
         binding.nextStart.setOnClickListener {
             findNavController().navigate(R.id.action_MenuFragment_to_gameFragment)
         }
@@ -52,7 +58,10 @@ class MenuFragment : Fragment() {
         binding.nextExit.setOnClickListener {
             activity?.finishAffinity()
         }
+
     }
+
+
 
     override fun onDestroyView() {
         super.onDestroyView()

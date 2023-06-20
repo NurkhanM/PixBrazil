@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/SplashFragment">
+    app:startDestination="@id/welcomeFragment">
 
     <fragment
         android:id="@+id/SplashFragment"
@@ -32,6 +32,7 @@
         <action
             android:id="@+id/action_MenuFragment_to_gameFragment"
             app:destination="@id/gameFragment" />
+
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
@@ -76,13 +77,22 @@
         <action
             android:id="@+id/action_gameFragment_to_privacyFragment"
             app:destination="@id/privacyFragment" />
-        <action
-            android:id="@+id/action_gameFragment_to_ruletkaFragment"
-            app:destination="@id/ruletkaFragment" />
     </fragment>
     <fragment
-        android:id="@+id/ruletkaFragment"
-        android:name="keep.pixbrazil.windows.ruletka.RuletkaFragment"
-        android:label="RuletkaFragment"
-        tools:layout="@layout/fragment_ruletka"/>
+        android:id="@+id/webFragment"
+        android:name="keep.pixbrazil.windows.web.WebFragment"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="keep.pixbrazil.windows.welcome.WelcomeFragment"
+        android:label="WelcomeFragment"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_SplashFragment"
+            app:destination="@id/SplashFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_webFragment"
+            app:destination="@id/webFragment" />
+    </fragment>
 </navigation>

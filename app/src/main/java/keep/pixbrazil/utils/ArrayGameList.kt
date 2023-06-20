@@ -1,44 +1,65 @@
 package keep.pixbrazil.utils
 
 object ArrayGameList {
+    private val QUESTIONS_0 = arrayOf(
+        "Brazil"  ,
+        "Argentina" ,
+        "France"   ,
+        "Spain"
+    )
 
     private val QUESTIONS_1 = arrayOf(
-        "Бразилия"  ,
-        "Аргентина" ,
-        "Франция"   ,
-        "Испания"
+        "Real Madrid",
+        "Barcelona",
+        "Bayern Munich",
+        "Manchester United"
     )
-
     private val QUESTIONS_2 = arrayOf(
-        "Реал Мадрид",
-        "Барселона",
-        "Бавария Мюнхен",
-        "Манчестер Юнайтед"
+        "Lionel Messi",
+        "Cristiano Ronaldo",
+        "Neymar",
+        "Robert Lewandowski"
     )
     private val QUESTIONS_3 = arrayOf(
-        "Лионель Месси",
-        "Криштиану Роналду",
-        "Неймар",
-        "Роберт Левандовски"
+        "Germany",
+        "Brazil",
+        "Argentina",
+        "Italy"
     )
     private val QUESTIONS_4 = arrayOf(
-        "Германия",
-        "Бразилия",
-        "Аргентина",
-        "Италия"
+        "Lionel Messi",
+        "Robert Lewandowski",
+        "Karim Benzema",
+        "Luka Modric"
     )
     private val QUESTIONS_5 = arrayOf(
-        "Лионель Месси",
-        "Роберт Левандовски",
-        "Карим Бензема",
-        "Лука Модрич"
+        "Barcelona",
+        "Bayern Munich",
+        "Liverpool",
+        "Juventus"
+    )
+    private val QUESTIONS_6 = arrayOf(
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Raúl",
+        "Karim Benzema"
+    )
+    private val QUESTIONS_7 = arrayOf(
+        "9",
+        "10",
+        "11",
+        "12"
     )
 
+
     val ARRAY_LIST_FOOTBALL = arrayListOf(
+        ArrayList(QUESTIONS_0.toList()),
         ArrayList(QUESTIONS_1.toList()),
         ArrayList(QUESTIONS_2.toList()),
         ArrayList(QUESTIONS_3.toList()),
         ArrayList(QUESTIONS_4.toList()),
         ArrayList(QUESTIONS_5.toList()),
+        ArrayList(QUESTIONS_6.toList()),
+        ArrayList(QUESTIONS_7.toList()),
     )
 }

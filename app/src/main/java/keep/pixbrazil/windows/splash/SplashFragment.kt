@@ -42,9 +42,6 @@ class SplashFragment : Fragment() {
                 .navigate(R.id.action_SplashFragment_to_MenuFragment)
         }
 
-//        binding.buttonFirst.setOnClickListener {
-//            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
-//        }
     }
 
     @Suppress("DEPRECATION")
